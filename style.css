@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+ul li {
+  padding: 20px;
+}
+.logo {
+  width: 100px;
+  height: 30px;
+  align-self: center;
+  margin-left: 35px;
+}
+.nav_btn {
+  margin-right: 35px;
+  align-self: center;
+  border: none;
+  color: white;
+  padding: 10px;
+  background-color: #f63954;
+  width: 140px;
+  height: 40px;
+}
+a {
+  text-decoration: none;
+  color: #848389;
+  font-size: 12px;
+}
+.main1 {
+  width: 1080px;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  background-image: url(hero-homepage.jpg);
+}
