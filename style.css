@@ -2,6 +2,9 @@
   padding: 0px;
   margin: 0px;
 }
+body {
+  font-family: sans-serif;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -33,6 +36,7 @@ a {
   text-decoration: none;
   color: #848389;
   font-size: 12px;
+  font-family: Open Sans, sans-serif;
 }
 .main1 {
   height: 620px;
@@ -78,3 +82,78 @@ a {
   height: 50px;
   align-self: center;
 }
+
+/* screen 2 jis me social media k icons he */
+.screen2 {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(244, 244, 247);
+  flex-direction: column;
+}
+/* screen 2 me paragraph*/
+.screen2_para {
+  margin-top: 60px;
+  font-size: 14px;
+  color: #848389;
+  align-self: center;
+}
+/* screen 2 m ek div bnya jis me icons he or ose display flex dia */
+.social_icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* unorder list for icons */
+.ul_social_icons {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style-type: none;
+}
+/* unorder list k li */
+.ul_social_icons li {
+  padding: 10px;
+  align-self: center;
+}
+/* icons 1 se icon 9 */
+.i_1 {
+  width: 50px;
+  height: 50px;
+}
+.i_2 {
+  width: 112px;
+  height: 91px;
+}
+.i_3 {
+  width: 124px;
+  height: 60px;
+}
+.i_4 {
+  width: 131px;
+  height: 90px;
+}
+.i_5 {
+  width: 40px;
+  height: 60px;
+  align-self: center;
+}
+.i_6 {
+  width: 50px;
+  height: 60px;
+}
+.i_7 {
+}
+
+.i_8 {
+  width: 150px;
+  height: 40px;
+}
+.i_9 {
+  width: 200px;
+  height: 60px;
+}
+/* icons end */
+
