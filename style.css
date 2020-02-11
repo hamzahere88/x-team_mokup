@@ -107,7 +107,7 @@ a {
 }
 /* unorder list for icons */
 .ul_social_icons {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -157,3 +157,97 @@ a {
 }
 /* icons end */
 
+/* screen 3 */
+.screen3 {
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+}
+.screen3 h1 {
+  align-self: center;
+}
+.s3_line {
+  width: 40px;
+  height: 2px;
+  background-color: red;
+  align-self: center;
+  margin-top: 30px;
+}
+.screen3_C {
+  display: flex;
+  flex-direction: column;
+}
+.screen3_C p {
+  align-self: center;
+  line-height: 30px;
+  color: #848389;
+  font-size: 20px;
+}
+.screen3_f_p {
+  margin-top: 40px;
+}
+
+.screen3_pic {
+  display: flex;
+  justify-content: space-around;
+}
+.screen3_pic {
+  margin-top: 50px;
+}
+.s3_c1 {
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.s3_c2 {
+  margin-right: 120px;
+}
+.screen3_card1_con {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen3_card1_con p {
+  margin-top: 10px;
+}
+/* card 1 end  */
+
+/* card 2 start */
+
+.screen3_card2_con {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.screen3_card2_con h2 {
+  align-self: center;
+}
+.screen3_card2_con p {
+  align-self: center;
+  margin-top: 5px;
+}
+/* screen 3 end */
+
+/* screen 4 start */
+.s_4{
+  display: flex;
+  margin-top: 250px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* screen 4 image widh height */
+.screen4_image{
+  width: 750px;
+  height: 700px;
+}
+/* line red in screen4 right saide */
+.line1_s4{
+width: 50px;
+height: 2px;
+background-color: red;
+}
