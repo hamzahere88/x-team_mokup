@@ -242,7 +242,7 @@ a {
 
 /* screen 4 image widh height */
 .screen4_image{
-  width: 750px;
+  width: 740px;
   height: 700px;
 }
 /* line red in screen4 right saide */
@@ -250,4 +250,12 @@ a {
 width: 50px;
 height: 2px;
 background-color: red;
+}
+
+/* screen four content */
+
+.s_4_cont
+{
+  /* display: flex;
+  flex-direction: column; */
 }
