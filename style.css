@@ -256,6 +256,5 @@ background-color: red;
 
 .s_4_cont
 {
-  /* display: flex;
-  flex-direction: column; */
+  padding-right: 10px;
 }
