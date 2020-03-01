@@ -233,7 +233,7 @@ a {
 /* screen 3 end */
 
 /* screen 4 start */
-.s_4{
+.s_4 {
   display: flex;
   margin-top: 250px;
   justify-content: space-between;
@@ -241,20 +241,49 @@ a {
 }
 
 /* screen 4 image widh height */
-.screen4_image{
+.screen4_image {
   width: 740px;
   height: 700px;
 }
 /* line red in screen4 right saide */
-.line1_s4{
-width: 50px;
-height: 2px;
-background-color: red;
+.line1_s4 {
+  width: 50px;
+  height: 2px;
+  background-color: red;
 }
 
 /* screen four content */
 
-.s_4_cont
-{
-  padding-right: 10px;
+.s_4_cont {
+  padding-right: 120px;
+}
+/* heading color in screen 4 */
+
+.scr_4_head {
+  color: #34323b;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+/* screen 4 first peara graph */
+.scr_4_pera {
+  color: #5a5665;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 30px;
+}
+/* scree4 first paragraph lin 2 */
+.scr_4_pera2 {
+  color: #5a5665;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+/* screen 4 me right saide me conr=tect me dosri red line  */
+.line2_s4 {
+  margin-top: 120px;
+  width: 50px;
+  height: 2px;
+  background-color: red;
 }
