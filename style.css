@@ -292,12 +292,11 @@ a {
 .screen5_c
 {
   display: flex;
-  justify-content: center;
   flex-direction: column;
 
 }
 /* screen5_c os ka p */
-.screen5_c p
+.firstpere_s5
 {
 align-self: center;
 margin-top: 120px;
@@ -312,5 +311,25 @@ font-weight: 800;
   width: 50px;
   height: 2px;
   background-color: red;
+  align-self: center;
+}
+.screen5_pera_first{
+  align-self: center;
+  color:#5a5665 ;
+  line-height: 32px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.screen5_pera
+{
+  align-self: center;
+  color:#5a5665 ;
+  line-height: 32px;
+  font-size: 20px;
+}
+.account_icon
+{
+  width: 37px;
+  height: 42px;
   align-self: center;
 }
