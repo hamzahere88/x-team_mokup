@@ -385,3 +385,38 @@ line-height: 20px;
 margin-top: 10px;
 color: #5f5e65;
 }
+/* end screen 5 */
+/* screen 6 start */
+.screen6
+{
+  display: flex;
+  flex-direction: column;
+
+}
+.scr6_first_pera
+{
+  align-self: center;
+  margin-top: 200px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #34323b;
+}
+/* screen 6 pera */
+.s6_pera
+{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: #5a5665;
+  line-height: 30px;
+  font-size: 20px;
+  flex-direction: column;
+}
+.scr6_pera_sec
+{
+  align-self: center;
+}
+.scr6_pera_first
+{
+  align-self: center;
+}
