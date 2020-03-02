@@ -9,12 +9,13 @@ header {
   display: flex;
   justify-content: space-between;
 }
-ul {
+.nav_ul {
   display: flex;
   list-style-type: none;
 }
-ul li {
+.nav_ul li {
   padding: 20px;
+  align-self: center;
 }
 .logo {
   width: 100px;
@@ -37,6 +38,7 @@ a {
   color: #848389;
   font-size: 12px;
   font-family: Open Sans, sans-serif;
+  align-self: center;
 }
 .main1 {
   height: 620px;
@@ -289,47 +291,97 @@ a {
 }
 
 /* screen 5 */
-.screen5_c
-{
+.screen5_c {
   display: flex;
   flex-direction: column;
-
 }
 /* screen5_c os ka p */
-.firstpere_s5
-{
-align-self: center;
-margin-top: 120px;
-color: #34323b;
-font-size: 32px;
-font-weight: 800;
+.firstpere_s5 {
+  align-self: center;
+  margin-top: 120px;
+  color: #34323b;
+  font-size: 32px;
+  font-weight: 800;
 }
 /* red line in screen 5 */
-.redline
-{
+.redline {
   margin-top: 30px;
   width: 50px;
   height: 2px;
   background-color: red;
   align-self: center;
 }
-.screen5_pera_first{
+/* screen 5 pera 1 line */
+.screen5_pera_first {
   align-self: center;
-  color:#5a5665 ;
+  color: #5a5665;
   line-height: 32px;
   font-size: 20px;
   margin-top: 50px;
 }
-.screen5_pera
-{
+/* screen 5 pera 2 line */
+.screen5_pera {
   align-self: center;
-  color:#5a5665 ;
+  color: #5a5665;
   line-height: 32px;
   font-size: 20px;
 }
-.account_icon
-{
+/* screen 5 me red icons */
+.account_icon {
   width: 37px;
   height: 42px;
+}
+/* ul for icons and content */
+.icons_ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+/* ul k ander icons k niche pera */
+.icons_ul li {
   align-self: center;
+}
+/* image in ul */
+.icons_ul img {
+  align-self: center;
+}
+/* ul k andaer icons div for align */
+.icon_div {
+  display: flex;
+  flex-direction: column;
+}
+.icon_div img {
+  align-self: center;
+}
+.icon_div p {
+  align-self: center;
+}
+/* scren five icon div me first p */
+.first_p_s5_icon
+{
+  margin-top: 30px;
+  color: #34323b;
+  font-size: 19px;
+  font-weight: 600;
+}
+/* secound pera align in screen 5 icons div */
+.secound_pera_icons_div
+{
+font-family: sans-serif;
+font-size: 19px;
+font-weight: 300;
+line-height: 20px;
+margin-top: 20px;
+color: #5f5e65;
+}
+/* third line icon div */
+.third_p_icon_div
+{
+  font-family: sans-serif;
+font-size: 19px;
+font-weight: 300;
+line-height: 20px;
+margin-top: 10px;
+color: #5f5e65;
 }
