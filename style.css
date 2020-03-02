@@ -420,3 +420,12 @@ color: #5f5e65;
 {
   align-self: center;
 }
+/* screen 7 pera */
+.s7_heading
+{
+  align-self: center;
+  margin-top: 200px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #34323b;
+}
