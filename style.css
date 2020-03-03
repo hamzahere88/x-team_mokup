@@ -3,7 +3,7 @@
   margin: 0px;
 }
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 header {
   display: flex;
@@ -358,43 +358,37 @@ a {
   align-self: center;
 }
 /* scren five icon div me first p */
-.first_p_s5_icon
-{
+.first_p_s5_icon {
   margin-top: 30px;
   color: #34323b;
   font-size: 19px;
   font-weight: 600;
 }
 /* secound pera align in screen 5 icons div */
-.secound_pera_icons_div
-{
-font-family: sans-serif;
-font-size: 19px;
-font-weight: 300;
-line-height: 20px;
-margin-top: 20px;
-color: #5f5e65;
+.secound_pera_icons_div {
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 20px;
+  color: #5f5e65;
 }
 /* third line icon div */
-.third_p_icon_div
-{
+.third_p_icon_div {
   font-family: sans-serif;
-font-size: 19px;
-font-weight: 300;
-line-height: 20px;
-margin-top: 10px;
-color: #5f5e65;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 10px;
+  color: #5f5e65;
 }
 /* end screen 5 */
 /* screen 6 start */
-.screen6
-{
+.screen6 {
   display: flex;
   flex-direction: column;
-
 }
-.scr6_first_pera
-{
+.scr6_first_pera {
   align-self: center;
   margin-top: 200px;
   font-size: 32px;
@@ -402,8 +396,7 @@ color: #5f5e65;
   color: #34323b;
 }
 /* screen 6 pera */
-.s6_pera
-{
+.s6_pera {
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -412,17 +405,14 @@ color: #5f5e65;
   font-size: 20px;
   flex-direction: column;
 }
-.scr6_pera_sec
-{
+.scr6_pera_sec {
   align-self: center;
 }
-.scr6_pera_first
-{
+.scr6_pera_first {
   align-self: center;
 }
 /* screen 7 pera */
-.s7_heading
-{
+.s7_heading {
   align-self: center;
   margin-top: 200px;
   font-size: 32px;
@@ -430,13 +420,68 @@ color: #5f5e65;
   color: #34323b;
 }
 /* screen 6 footer */
-.creen6_footer
-{
+.screen6_footer {
   display: flex;
   justify-content: space-around;
+  margin-top: 130px;
+  margin-left: 140px;
 }
-.scr6_lft_footer
-{
+.scr6_lft_footer {
   display: flex;
   flex-direction: column;
+  line-height: 30px;
+}
+.scr6_right_footer {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+/* screen 6 footer design */
+
+.“ {
+  color: #f73954;
+  font-size: 64px;
+  font-weight: 700;
+  height: 50px;
+  font-weight: bold;
+}
+.scr6_left_fot_first_pera {
+  font-size: 30px;
+  color: #34323b;
+  font-weight: 800;
+}
+.scr6_left_fot_secound_pera {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #5f5e65;
+  font-weight: 300;
+}
+.scr6_left_fot_genral_pera {
+  font-size: 20px;
+  color: #5f5e65;
+  font-weight: 300;
+}
+.scr6_left_first_red_pera {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #f73954;
+}
+.scr6_left_gen_red_pera {
+  font-size: 30px;
+  font-weight: 300;
+  color: #f73954;
+}
+.scr6_small_first_pera {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #5a5665;
+  font-weight: 600;
+  margin-bottom: -15px;
+}
+.scr6_small_gen_pera {
+  font-size: 14px;
+  color: #5a5665;
+  font-weight: 600;
 }
