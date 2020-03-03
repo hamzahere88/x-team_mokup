@@ -3,7 +3,7 @@
   margin: 0px;
 }
 body {
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 header {
   display: flex;
@@ -428,4 +428,15 @@ color: #5f5e65;
   font-size: 32px;
   font-weight: 800;
   color: #34323b;
+}
+/* screen 6 footer */
+.creen6_footer
+{
+  display: flex;
+  justify-content: space-around;
+}
+.scr6_lft_footer
+{
+  display: flex;
+  flex-direction: column;
 }
