@@ -485,3 +485,33 @@ a {
   color: #5a5665;
   font-weight: 600;
 }
+/* screen 7  */
+.screen7
+{
+  
+ width: 100%; 
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  margin-top: 150px;
+}
+.screen7_left{
+  /* width: 40%; */
+  height: 700px;
+}
+/* screen7 h1 */
+.screen7_left h1{
+  width: 220px;
+}
+/* screen 7left sadide p */
+.screen7_left p
+{
+  width: 430px;
+  font-size: 23px;
+  margin-top:60px ;
+}
+.screen7_right img{
+  width: 670px;
+  height: 580px;
+  margin-left: auto;
+}
