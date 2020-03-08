@@ -486,49 +486,40 @@ a {
   font-weight: 600;
 }
 /* screen 7  */
-.screen7
-{
-  
- width: 100%; 
+.screen7 {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-self: center;
   margin-top: 150px;
 }
-.screen7_left{
+.screen7_left {
   /* width: 40%; */
   height: 700px;
   padding-left: 110px;
 }
 /* screen7 h1 */
-.screen7_left h1{
+.screen7_left h1 {
   width: 220px;
-  
 }
 /* screen 7left sadide p */
-.screen7_left p
-{
+.screen7_left p {
   width: 410px;
   font-size: 23px;
-  margin-top:60px ;
+  margin-top: 60px;
   font-weight: 300;
   color: #5a5665;
   line-height: 36px;
+}
 
-}
-.screen7_right{
-display: flex;
-justify-content: flex-end;background-color: #f63954;
-}
-.screen7_right img{
+.screen7_right img {
   width: 670px;
   height: 580px;
   margin-left: auto;
   margin-right: auto;
-  
 }
 /* screen 7 on eft hend saide on a bottoms buttons */
-.screen7_left  button{
+.screen7_left button {
   margin-top: 30px;
   padding: 20px;
   border: none;
@@ -536,4 +527,22 @@ justify-content: flex-end;background-color: #f63954;
   color: white;
   width: 200px;
   height: 50px;
+}
+/* screen 7 end */
+/* screen 8 start */
+.screen8 {
+  margin-top: 50px;
+  display: flex;
+}
+/* screen 8 left section */
+.screen8_left_section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+/* screen 8 right section */
+.screen8_right_section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
