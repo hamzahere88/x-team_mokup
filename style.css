@@ -491,26 +491,30 @@ a {
   
  width: 100%; 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-self: center;
   margin-top: 150px;
 }
 .screen7_left{
   /* width: 40%; */
   height: 700px;
+  padding-left: 110px;
 }
 /* screen7 h1 */
 .screen7_left h1{
   width: 220px;
+  
 }
 /* screen 7left sadide p */
 .screen7_left p
 {
-  width: 430px;
+  width: 410px;
   font-size: 23px;
   margin-top:60px ;
   font-weight: 300;
   color: #5a5665;
+  line-height: 36px;
+
 }
 .screen7_right{
 display: flex;
@@ -522,4 +526,14 @@ justify-content: flex-end;background-color: #f63954;
   margin-left: auto;
   margin-right: auto;
   
+}
+/* screen 7 on eft hend saide on a bottoms buttons */
+.screen7_left  button{
+  margin-top: 30px;
+  padding: 20px;
+  border: none;
+  background-color: #f73954;
+  color: white;
+  width: 200px;
+  height: 50px;
 }
