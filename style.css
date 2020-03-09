@@ -622,3 +622,66 @@ a {
   width: 560px;
   height: 450px;
 }
+/* screen9 end */
+/* screen 10 start */
+.screen10 {
+  width: 100%;
+  height: 430px;
+  background-color: #f1f1f5;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen10 h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #34323b;
+}
+.screen10 p {
+  font-size: 22px;
+  color: #5a5665;
+  font-size: 23px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.screen10 input {
+  height: 60px;
+  width: 620px;
+  border: none;
+  border-radius: 0px;
+  padding-left: 40px;
+  margin-top: 40px;
+  color: #5f5e65;
+  font-size: 16px;
+}
+
+.screen10 button {
+  margin-top: 30px;
+  padding: 20px;
+  border: none;
+  background-color: #f73954;
+  color: white;
+  width: 178px;
+  height: 63px;
+  align-self: center;
+  margin-left: 10px;
+}
+/* footer  */
+footer {
+  margin-top: 100px;
+}
+.footer_col
+{
+  display: flex;
+  flex-direction: column;
+  
+}
+/* footer logo */
+.footer_logo
+{
+  width: 100px;
+}
