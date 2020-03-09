@@ -673,15 +673,31 @@ a {
 /* footer  */
 footer {
   margin-top: 100px;
+  display: flex;
 }
 .footer_col
 {
   display: flex;
-  flex-direction: column;
-  
+  flex-direction:column;
+
 }
 /* footer logo */
 .footer_logo
 {
   width: 100px;
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
